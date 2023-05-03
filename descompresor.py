@@ -52,11 +52,8 @@ def write_file(file_path, content, encoding="ISO-8859-1"):
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python descompresor.py <compressed_file>")
-        sys.exit(1)
-
-    compressed_file = sys.argv[1]
+    
+    compressed_file = "comprimido.elmejorprofesor"
     decompressed_file = "descomprimido-elmejorprofesor.txt"
 
     # Read data and tree
